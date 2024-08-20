@@ -1,0 +1,60 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.buttonDiv
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.addNewBookBtn
+{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+.bookList
+{
+    border: 1px solid black;
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#containerForm
+{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: silver;
+    top: 100px;
+    left: 800px;
+    display: none;
+}
